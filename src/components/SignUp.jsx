@@ -9,7 +9,7 @@ import Logo from './Logo'
 import {useDispatch} from 'react-redux'
 import {useForm} from 'react-hook-form'
 
-function Signup() {
+function Register() {
     const navigate = useNavigate()
     const [error, setError] = useState("")
     const dispatch = useDispatch()
@@ -88,4 +88,4 @@ function Signup() {
   )
 }
 
-export default Signup
+export default Register
